@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Estilo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #111;
+            color: #fff;
+        }
+        header {
+            background: #222;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #f1c40f;
+        }
+        header p {
+            color: #aaa;
+        }
+        .servicos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 3rem 1rem;
+            gap: 2rem;
+        }
+        .card {
+            background: #1c1c1c;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            width: 280px;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            background: #2a2a2a;
+        }
+        .card h3 {
+            color: #f1c40f;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Barbearia Estilo</h1>
+        <p>Tradição e estilo em cada corte</p>
+    </header>
+
+    <section class="servicos">
+        <div class="card">
+            <h3>Corte Masculino</h3>
+            <p>Estilos modernos e clássicos com acabamento perfeito.</p>
+        </div>
+        <div class="card">
+            <h3>Barba</h3>
+            <p>Design, hidratação e toalha quente para um toque de classe.</p>
+        </div>
+        <div class="card">
+            <h3>Pacote Completo</h3>
+            <p>Corte + Barba + Limpeza de pele para um visual impecável.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Barbearia Estilo - Todos os direitos reservados
+    </footer>
+</body>
+</html>
